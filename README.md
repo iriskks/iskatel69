@@ -1,16 +1,3 @@
-# maps
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# iskatel69
+Проект посвящён разработке приложения для работы с картами и геоданными. Реализовано отображение интерактивной карты, навигация, масштабирование и работа с маркерами. Пользователь может просматривать локации, получать информацию о точках и взаимодействовать с картой. Проект создан в учебных целях для изучения картографических API.
+[https://www.figma.com/site/R6W6UPCO3HNR5nQCiiz0br/Untitled?node-id=1-465&t=V7TLcEUYmWyZQu9D-0](https://www.figma.com/design/5qrVXQ6mmOguyUWUK6pO1U/Untitled?node-id=0-1&p=f&t=KTK8lccSooP03xYB-0)
