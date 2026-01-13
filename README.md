@@ -1,3 +1,3 @@
 # iskatel69
 Проект посвящён разработке приложения для работы с картами и геоданными. Реализовано отображение интерактивной карты, навигация, масштабирование и работа с маркерами. Пользователь может просматривать локации, получать информацию о точках и взаимодействовать с картой. Проект создан в учебных целях для изучения картографических API.
-https://www.figma.com/site/R6W6UPCO3HNR5nQCiiz0br/Untitled?node-id=1-465&t=V7TLcEUYmWyZQu9D-0
+[https://www.figma.com/site/R6W6UPCO3HNR5nQCiiz0br/Untitled?node-id=1-465&t=V7TLcEUYmWyZQu9D-0](https://www.figma.com/design/5qrVXQ6mmOguyUWUK6pO1U/Untitled?node-id=0-1&p=f&t=KTK8lccSooP03xYB-0)
