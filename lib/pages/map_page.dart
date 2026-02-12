@@ -17,7 +17,6 @@ import '../ui/map/animated_marker.dart';
 import '../ui/map/route_input_dialog.dart';
 import 'login_page.dart';
 import '../services/auth_service.dart';
-import '../services/routing_service.dart';
 import '../ui/theme/themed_scaffold.dart';
 import '../ui/theme/app_themes.dart';
 import 'route_results_page.dart';
@@ -39,13 +38,6 @@ class _MapPageState extends State<MapPage> {
   bool isSatellite = false;
   List<dynamic> searchResults = [];
   Place? selectedPlace;
-  
-  // Состояние маршрутов - показываем прямо на карте
-  List<RouteInfo>? _availableRoutes;
-  RouteInfo? _selectedRoute;
-  LatLng? _routeStart;
-  LatLng? _routeEnd;
-  bool _loadingRoute = false;
 
   // ==========================
   // 📍 ГРАНИЦЫ ВИДИМОЙ ОБЛАСТИ
