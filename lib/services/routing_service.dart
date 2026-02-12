@@ -107,12 +107,17 @@ class RoutingService {
         final geometry = route['geometry'];
         final waypoints = _decodeGeometry(geometry);
 
-        return RouteInfo(
+        final routeInfo = RouteInfo(
           distance: distance / 1000, // convert to km
           duration: duration / 60, // convert to minutes
           profile: profile,
           waypoints: waypoints.isNotEmpty ? waypoints : [start, end], // fallback
         );
+        
+        // 🔍 Логирование для отладки
+        print('✅ [$profile] Расстояние: ${routeInfo.distance.toStringAsFixed(1)} км, Время: ${routeInfo.duration.toStringAsFixed(0)} мин');
+        
+        return routeInfo;
       } else {
         return null; // Ошибка сервера - пропускаем этот профиль
       }
